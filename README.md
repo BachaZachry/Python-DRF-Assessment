@@ -20,6 +20,9 @@ python manage.py runserver
 The user is required to send the airplane_id and passengers (number of passengers) and has other optional fields.
 
 ```
+URL: 127.0.0.1/airplane/add/
+POST request
+Restrictions: No more than 10 entries can be added
 {
     "airplane_id": Positive number,
     "passengers": Positive number,
