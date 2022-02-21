@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Django rest framework
     'rest_framework',
+    # Airplane management
+    'airplanes',
+    # User management
     'users',
 ]
 
@@ -51,8 +54,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
-
 
 
 ROOT_URLCONF = 'drfassessment.urls'
