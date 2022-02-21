@@ -31,3 +31,11 @@ The optional fields are the following:
 - fuel_tank_capacity_multiplier : to override the default value of the fuel tank capacity multiplier.
 - fuel_consumption_multiplier : to override the default value of the fuel consumption multiplier.
 - passenger_fuel_increase : to override the default value of the fuel consumption increase per passenger.
+
+## Testing
+
+Run the following command to run the tests and get the test coverage
+
+```
+pytest
+```
