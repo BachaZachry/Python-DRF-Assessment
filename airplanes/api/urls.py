@@ -1,6 +1,7 @@
 from django.urls import path, include
-from .views import AirplaneManagement
+from .views import AirplaneManagement, AirplaneManagementBulk
 
 urlpatterns = [
-    path('add/', AirplaneManagement.as_view(), name="Add airplane")
+    path('add/', AirplaneManagement.as_view(), name="Add Airplane"),
+    path('addbulk/', AirplaneManagementBulk.as_view(), name="Add Bulk Airplanes"),
 ]
