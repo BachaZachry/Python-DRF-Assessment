@@ -1,4 +1,4 @@
-from rest_framework import generics
+from rest_framework import generics, mixins
 
 
 class ViewA(generics.GenericAPIView):
@@ -6,4 +6,8 @@ class ViewA(generics.GenericAPIView):
 
 
 class ViewC(generics.GenericAPIView):
+    pass
+
+
+class ViewB(mixins.CreateModelMixin):
     pass
