@@ -28,6 +28,20 @@ Restrictions: No more than 10 entries can be added
     "passengers": Positive number,
 }
 ```
+And for bulk creation:
+```
+URL: 127.0.0.1/airplane/addbulk/
+POST request
+Restrictions: No more than 10 entries can be added
+[{
+    "airplane_id": Positive number,
+    "passengers": Positive number,
+},
+{
+    "airplane_id": Positive number,
+    "passengers": Positive number,
+}]
+```
 
 The optional fields are the following:
 
